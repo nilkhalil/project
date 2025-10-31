@@ -52,6 +52,7 @@ h1 {
 }
 
 .main-only {
+    margin-top: 8vw;
     display: flex;
     font-size: 1.6vw;
     align-items: center;
