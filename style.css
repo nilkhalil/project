@@ -41,11 +41,15 @@
     align-items: center;
 }
 
- .main-image2 {
+.main-image2 {
     margin-right: 9vw;
     margin-top: 7vw;
 
- }
+}
+
+h1 {
+    font-size: 55px;
+}
 
 .main-only {
     display: flex;
@@ -95,6 +99,10 @@
 
     .main h2 {
         font-size: 6.93vw;
+    }
+
+    h1 {
+        font-size: 32px;
     }
 
     .main-text p {
@@ -171,6 +179,10 @@
 
     .main h2 {
         font-size: 3.8vw;
+    }
+
+    h1 {
+        font-size: 26px;
     }
 
     .main-text p {
