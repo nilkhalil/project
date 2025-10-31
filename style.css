@@ -41,10 +41,11 @@
     align-items: center;
 }
 
-.main-image2 {
+ .main-image2 {
     margin-right: 9vw;
     margin-top: 7vw;
-}
+
+ }
 
 .main-only {
     display: flex;
@@ -59,39 +60,16 @@
     width: 14vw;
 }
 
-.main-format {
-    margin-top: 12vw;
-    margin-bottom: 5vw;
-}
-
 .main-block {
     margin-top: 9vw;
     display: flex;
     font-size: 2vw;
 }
 
-.main-format p {
-    font-size: 1.5vw;
-    margin-right: 9vw;
-    width: 22vw;
-}
-
-.main-all ul {
-    margin-top: 5vw;
-    font-size: 1.8vw;
-    width: 45vw;
-    line-height: 1.6;
-}
-
 .main-block h4 {
     color: #1e4681;
     margin-bottom: 1vw;
 }
-
-.main-all h2 {
-    margin-top: 15vw;
-}
-
 
 
 
@@ -216,7 +194,7 @@
         margin-right: 9.1vw;
         width: 16vw;
         margin-bottom: 10px;
-
+        display: none;
     }
 
     .main-only {
