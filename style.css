@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=BBH+Sans+Hegarty&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nilufer Desktop */
+.main-everything {
+    padding-top: 12vw;
+    padding-left: 9vw;
+}
+
+.main-text {
+    display: flex;
+}
+
+.main h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.main-text p {
+    margin-top: 4vw;
+    font-size: 1.9vw;
+    width: 52vw;
+    line-height: 1.6;
+    margin-right: 11vw;
+}
+
+.main-image1 {
+    margin-top: 9vw;
+    width: 30vw;
+}
+
+.main-mix {
+    display: flex;
+    align-items: center;
+}
+
+.main-image2 {
+    margin-right: 9vw;
+    margin-top: 7vw;
+}
+
+.main-only {
+    display: flex;
+    font-size: 1.6vw;
+    align-items: center;
+}
+
+.main-same p {
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-right: 7vw;
+    width: 14vw;
+}
+
+.main-format {
+    margin-top: 12vw;
+    margin-bottom: 5vw;
+}
+
+.main-block {
+    margin-top: 9vw;
+    display: flex;
+    font-size: 2vw;
+}
+
+.main-format p {
+    font-size: 1.5vw;
+    margin-right: 9vw;
+    width: 22vw;
+}
+
+.main-all ul {
+    margin-top: 5vw;
+    font-size: 1.8vw;
+    width: 45vw;
+    line-height: 1.6;
+}
+
+.main-block h4 {
+    color: #1e4681;
+    margin-bottom: 1vw;
+}
+
+.main-all h2 {
+    margin-top: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* ========== Mobil (300px -600px =========*/
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    /* Nilufer  mobil  */
+
+    .main-everything {
+        padding-top: 20vw;
+        padding-left: 9.6vw;
+    }
+
+    .main-text {
+        flex-direction: column;
+    }
+
+    .main h2 {
+        font-size: 6.93vw;
+    }
+
+    .main-text p {
+        margin-top: 7.73vw;
+        font-size: 3.2vw;
+        width: 82.13vw;
+    }
+
+    .main-image1 {
+        margin: 8vw auto;
+        width: 45.33vw;
+    }
+
+    .main-image2 {
+        display: none;
+    }
+
+    .main-only {
+        font-size: 3.2vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8vw;
+    }
+
+    .main-same p {
+        font-size: 2.67vw;
+        margin-right: 8.8vw;
+        width: 22.93vw;
+    }
+
+    .main-format {
+        margin-top: 19.47vw;
+    }
+
+    .main-block {
+        flex-direction: column;
+        margin-top: 4vw;
+    }
+
+    .main-format p {
+        font-size: 3.1vw;
+        width: 62.67vw;
+    }
+
+    .main {
+        margin-top: 3.2vw;
+    }
+
+    .main-all ul {
+        margin-top: 5.33vw;
+        margin-left: 3vw;
+        font-size: 3vw;
+        width: 79.73vw;
+        line-height: 1.5;
+    }
+
+    .main-block h4 {
+        font-size: 3.4vw;
+        margin-top: 9.6vw;
+    }
+
+
+}
+
+
+/* ===========Tablet (601px-1024px============ */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    /* Nilufer  tablet  */
+    .main-everything {
+        padding-top: 12.0vw;
+        padding-left: 8.4vw;
+    }
+
+    .main h2 {
+        font-size: 3.8vw;
+    }
+
+    .main-text p {
+        margin-top: 4.4vw;
+        font-size: 1.7vw;
+        width: 45.9vw;
+        margin-right: 11.3vw;
+    }
+
+    .main-image1 {
+        margin-top: 15.1vw;
+        width: 25vw;
+    }
+
+    .main-mix {
+        margin-top: 6vw;
+        align-items: center;
+    }
+
+    .main-image2 {
+        margin-right: 9.1vw;
+        width: 16vw;
+        margin-bottom: 10px;
+
+    }
+
+    .main-only {
+        font-size: 1.8vw;
+    }
+
+    .main-same p {
+        font-size: 1.3vw;
+    }
+}
